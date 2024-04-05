@@ -8,10 +8,10 @@ Utilitzat `docker compose` command amb el fitxer `docker-compose.yml` per crear.
 3) Afegeit un mètode `getCounter()` que retorna el nombre de vegades que Tigger ha realitzat rugits.
 
 ## Nivell 2 - Adapter
-1) Adaptem la classe Turkey para que es "comporti" i utilitzi els mètodes de Duck.
+1) Adaptem la classe Turkey per que es "comporti" i utilitzi els mètodes de Duck.
 
 ## Nivell 3 - Strategy
-1) Pendent.
+1) Adaptem la funció couponGenerator amb el Strategy Pattern, creem una Strategy interfície amb una funció que serà aplicada de forma diferent per les marques de cotxes. Per un altre banda, creem un context que ens permetrà generar el cupó.
 
 ### Developers Team
 ## Nivell 1
