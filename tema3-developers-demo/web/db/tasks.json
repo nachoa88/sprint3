@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "name": "task 1",
-        "status": "pendents",
-        "dateTimeStarted": "2022-01-01T10:00:00Z",
+        "name": "task1",
+        "status": "Checked",
+        "dateTimeStarted": "12\/02\/2024",
         "dateTimeFinished": null,
-        "user": "user1"
+        "user": "Nacho"
     },
     {
         "id": 2,

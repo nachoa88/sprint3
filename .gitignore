@@ -1,0 +1,9 @@
+/.idea/
+/.vscode/
+developers
+Dockerfile
+docker-compose.yml
+vendor/
+
+*.log
+.DS_Store
