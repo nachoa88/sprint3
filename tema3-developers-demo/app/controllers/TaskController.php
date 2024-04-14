@@ -2,6 +2,16 @@
 
 class TaskController extends Controller
 {
+    private bool $validateForm;
+
+    public function setValidateForm($validateForm)
+    {
+        $this->validateForm = $validateForm;
+
+        return $this;
+    }
+
+
     public function indexAction()
     {
         // Get all tasks and display them
@@ -11,14 +21,14 @@ class TaskController extends Controller
 
     public function createTaskAction()
     {
-        // Show the form for creating a new task
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $taskModel = new Task();
-            $taskModel->createTask();
+        // The method check if form is sent.
+        // If the form is sent, the method call to the createTask method of the model, witch process the form.
+        // If it's not, it's just call to createtask view witch contains the form.
 
-            // Redirect to index after the model does its work
-            return header('Location: index');
-        }
+        $taskModel = new Task();
+        // $taskModel->createTask();
+        $tasks = $taskModel->createTask();
+        $this->view->message = $tasks;
     }
 
     public function readTaskAction()
@@ -49,9 +59,6 @@ class TaskController extends Controller
             ];
             // Update task data.
             $this->view->taskData = $taskModel->updateTask($id, $newData);
-
-            // Redirect to index after the model does its work
-            return header('Location: index');
         } else {
             // If there is no updated task, display form with current task data.
             $this->view->taskData = $taskModel->getTaskById($id);
