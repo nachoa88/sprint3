@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "name": "task1",
-        "status": "Checked",
-        "dateTimeStarted": "12\/02\/2024",
+        "name": "task 1",
+        "status": "pendent",
+        "dateTimeStarted": "2022-01-01T10:00:00Z",
         "dateTimeFinished": null,
-        "user": "Nacho"
+        "user": "user1"
     },
     {
         "id": 2,
         "name": "task 2",
-        "status": "en execució",
+        "status": "en execuci\u00f3",
         "dateTimeStarted": "2022-01-02T08:00:00Z",
         "dateTimeFinished": null,
         "user": "user2"
