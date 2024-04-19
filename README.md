@@ -15,10 +15,10 @@ Utilitzat `docker compose` command amb el fitxer `docker-compose.yml` per crear.
 
 ### Developers Team
 ## Nivell 1
-1) Pendent.
+1) MVC Task TO-DO projecte amb una base de dades en format .json.
 
 ## Nivell 2
-1) Pendent.
+1) Mateix però amb MySQL.
 
 ## Nivell 3
-1) Pendent.
+1) Mateix però amb MongoDB.
