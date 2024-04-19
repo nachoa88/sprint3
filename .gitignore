@@ -1,9 +1,10 @@
+/vendor/
 /.idea/
 /.vscode/
-developers
-Dockerfile
-docker-compose.yml
-vendor/
+/developers
+/Dockerfile
+/docker-compose.yml
+/info.php
 
 *.log
 .DS_Store
