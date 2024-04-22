@@ -1,5 +1,5 @@
 # Sprint 3 - PHP i Patterns
-Utilitzat `docker compose` command amb el fitxer `docker-compose.yml` per crear...?
+Utilitzat `docker compose` command amb el fitxer `docker-compose.yml` i un `Dockerfile` personalitzat per crear els contenidors i conexions a MySQL y MongoDB.
 
 ### Patterns
 ## Nivell 1 - Singleton
